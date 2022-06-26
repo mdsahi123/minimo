@@ -1,0 +1,221 @@
+/*
+   Common CSS
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+p {
+  color: #626262;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+  font-weight: 700;
+}
+.content {
+  width: 1100px;
+  margin: 0 auto;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+/*
+   Header Area CSS
+*/
+#top_header {
+  overflow: hidden;
+  padding: 50px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.logo_area {
+  float: left;
+  width: 200px;
+}
+.nav_area {
+  float: right;
+  max-width: 700px;
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 70px;
+}
+nav ul li a {
+  color: #626262;
+  text-decoration: none;
+  display: block;
+}
+nav ul li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #000;
+  display: block;
+}
+nav ul li:hover::after {
+  width: 50px;
+  transition: 0.4s;
+}
+nav ul li a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+/*
+   Slider Area CSS
+*/
+#slider_area {
+  padding: 50px 0;
+}
+.inner_slider {
+  width: 1060px;
+  margin: 0 auto;
+}
+.bx-wrapper .bx-controls-auto,
+.bx-wrapper .bx-pager {
+  bottom: 25px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+/*
+   Text Area CSS
+*/
+#text_area h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: normal;
+  color: #b4ad9e;
+}
+#text_area h1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #626262;
+  padding-bottom: 20px;
+}
+#text_area p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #626262;
+  text-align: justify;
+}
+/*
+   Image Area CSS
+*/
+#image_area {
+  padding: 50px 0;
+}
+.inner_image_area {
+  overflow: hidden;
+}
+.image_area_container {
+  float: left;
+  padding: 1%;
+  margin: 50px 1% 10px;
+  width: 46%;
+}
+.image_area_container h5 {
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 14px;
+  font-weight: normal;
+}
+.image_area_container h2 {
+  color: #626262;
+  font-size: 26px;
+  font-weight: normal;
+}
+.image_area_container p {
+  color: #626262;
+  font-size: 14px;
+  font-weight: normal;
+}
+/*
+   SignUp Area CSS
+*/
+#signup_area {
+  min-height: 380px;
+  background: #f0f0f0;
+}
+.inner_signup {
+  padding: 60px 0;
+}
+.inner_signup h1 {
+  text-align: center;
+  color: #333333;
+  font-size: 30px;
+  font-weight: normal;
+}
+.inner_signup form {
+  text-align: center;
+  padding-top: 30px;
+}
+.inner_signup form input {
+  padding: 12px 5px;
+  background: transparent;
+  width: 400px;
+  outline: none;
+  border: 0px solid;
+  border-bottom: 1px solid #000;
+  color: #626262;
+  font-size: 14px;
+}
+/*
+   Footer Area CSS
+*/
+#footer_area {
+}
+.inner_footer_area {
+  overflow: hidden;
+}
+.left_footer {
+  float: left;
+  width: 50%;
+}
+.left_footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.left_footer ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.left_footer ul li a {
+  display: block;
+  text-decoration: none;
+  color: #626262;
+}
+.right_footer p {
+  /* text-align: right; */
+}
+.right_footer ul {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.right_footer ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.right_footer ul li a {
+  display: block;
+  color: #626262;
+}
